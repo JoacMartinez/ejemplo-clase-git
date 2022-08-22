@@ -136,8 +136,72 @@ body {
     font-family: letraparrafo;
     font-size: 20px;}
 
+.divtras2 {
+        
+        transition: all 2s; 
+      }
+      
+.divtras2:hover {
+      
+        transform: scale(1.2) translate(50px, 0px);
+ 
+      
+      }
+
+ @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      
+      
+.anime3 { 
+        animation-name: aparecer;
+        animation-duration: 3s;
+        
+      }
 
 
+.divtras {
+        height: 100px;
+        width: 200px;
+        transition: heigt 3s, width 3s; 
+       
+       
+      }
+      
+.divtras:hover {
+        height: 120px;
+        width: 220px;
+      }
 
+.divtras3 {
+        height: 50px;
+        width: 400px;
+        transition: heigt 3s, width 3s; 
+       
+       
+      }
+      
+.divtras3:hover {
+        height: 52px;
+        width: 420px;
+      }
 
-
+.divtras4 {
+        height: 50px;
+        width: 630px;
+        transition: heigt 2s, width 2s; 
+       
+       
+      }
+      
+.divtras4:hover {
+        height: 52px;
+        width: 650px;
+      } 
