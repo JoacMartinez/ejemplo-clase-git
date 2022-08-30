@@ -16,6 +16,16 @@
     font-family: letrasubt; 
     src: url(../fonts/Kanit/Kanit-Italic.ttf);}
 
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+      
 
 
 * {box-sizing: border-box;}
@@ -54,6 +64,18 @@ body {
 
 .pricet {font-size: 18px;}
 
+.grid{ 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%; 
+    gap: 1em; 
+    
+}
+
+.grid2{ 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
 
 .marcs { 
     text-align: center; 
@@ -79,7 +101,7 @@ body {
 
 .banner {
     height: 300px;
-    width: 1329px; 
+    width: 1325px; 
     border-radius: 15px;} 
 
 .logo {
@@ -90,11 +112,13 @@ body {
     margin-bottom: 1px;}
 
 .orden {
-    display: -webkit-inline-box; 
-    width: 17%; 
-    position: relative; 
-    font-size: 25px; 
-    font-family: letratitulo1;}
+        display: grid; 
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center; 
+        gap: 2em; 
+        width: 95%;  
+        font-size: 25px; 
+        font-family: letratitulo1;}
 
 .ordenfoot {
     display: -webkit-inline-box; 
@@ -148,16 +172,7 @@ body {
       
       }
 
- @keyframes aparecer {
-        0% {
-          opacity: 0;
-        }
-      
-        100% {
-          opacity: 1;
-        }
-      }
-      
+
       
       
 .anime3 { 
@@ -176,7 +191,7 @@ body {
       }
       
 .divtras:hover {
-        height: 120px;
+        
         width: 220px;
       }
 
@@ -189,7 +204,7 @@ body {
       }
       
 .divtras3:hover {
-        height: 52px;
+        
         width: 420px;
       }
 
@@ -202,6 +217,35 @@ body {
       }
       
 .divtras4:hover {
-        height: 52px;
+        
         width: 650px;
       } 
+
+.imgno {
+        max-width: 100%; 
+        margin-bottom: 0.3em; 
+        display: block;
+        outline: 2px solid rgb(0, 0, 0);
+        outline-offset: -6px;
+        border-radius: 15px;                      
+     }
+     
+.galery {
+       
+         columns: 3 320px;
+         column-gap: 0.3em;
+     }
+
+.orden {
+        display: grid; 
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center; 
+        gap: 2em; 
+        width: 95%;  
+        font-size: 25px; 
+        font-family: letratitulo1;}
+
+.listn {
+            list-style: none;
+        }
+        
