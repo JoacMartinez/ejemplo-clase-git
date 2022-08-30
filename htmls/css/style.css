@@ -75,6 +75,7 @@ body {
 .grid2{ 
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
 }
 
 .marcs { 
@@ -99,10 +100,15 @@ body {
 
 .imagenestienda {width: 250px;} 
 
-.banner {
+.bannerPic {
     height: 300px;
-    width: 1325px; 
+    width: 1205px; 
     border-radius: 15px;} 
+
+.banner {
+        height: 300px;
+        width: 1320px; 
+        border-radius: 15px;} 
 
 .logo {
     height: 100px; 
@@ -111,13 +117,13 @@ body {
     margin-left: -25px; 
     margin-bottom: 1px;}
 
-.orden {
+.ordenNav {
         display: grid; 
         grid-template-columns: repeat(6, 1fr);
         align-items: center; 
         gap: 2em; 
         width: 95%;  
-        font-size: 25px; 
+        font-size: 30px; 
         font-family: letratitulo1;}
 
 .ordenfoot {
@@ -185,41 +191,49 @@ body {
 .divtras {
         height: 100px;
         width: 200px;
-        transition: heigt 3s, width 3s; 
+        transition: width 1s; 
        
        
       }
       
 .divtras:hover {
-        
         width: 220px;
       }
 
 .divtras3 {
         height: 50px;
         width: 400px;
-        transition: heigt 3s, width 3s; 
+        transition:  width 1s; 
        
        
       }
       
 .divtras3:hover {
-        
+
         width: 420px;
       }
 
 .divtras4 {
         height: 50px;
         width: 630px;
-        transition: heigt 2s, width 2s; 
+        transition: width 1s; 
        
        
       }
       
 .divtras4:hover {
-        
+
         width: 650px;
       } 
+
+.bordix {
+  background-color: rgb(48 ,77,109 );
+  padding: 0.5em;
+}
+
+.bordix:hover {
+    border: 2px solid rgb(205, 209, 196);
+}
 
 .imgno {
         max-width: 100%; 
