@@ -1,0 +1,42 @@
+
+.pricet2 {
+    font-size: 25px; 
+    border: solid 2px;     
+}   
+
+
+.imgno {
+    max-width: 100%; 
+    margin-bottom: 0.3em; 
+    display: block;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -6px;
+    border-radius: 15px;                      
+ }
+ 
+.galery {
+   
+     columns: 3 320px;
+     column-gap: 0.3em;
+ }
+
+
+
+
+
+@media screen and (max-width:380px)  {
+    
+    .bannerPic2 {
+        margin-left: 4px;
+        height: 200px; 
+        width: 370px; 
+        margin-bottom: 10px;
+          }
+        
+    .pricet2 { 
+        margin-left: 10px;
+        font-size: 18px;
+        border: solid 2px; 
+    
+    }
+}

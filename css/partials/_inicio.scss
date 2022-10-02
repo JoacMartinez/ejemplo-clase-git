@@ -1,0 +1,97 @@
+@media screen and (max-width:380px)  {
+
+    * {
+        margin: auto;  
+    }
+    
+   
+      
+
+    .bannerPic2 {
+      margin-top: 15px;
+      margin-left: 10px;
+      height: 200px; 
+      width: 370px; 
+      margin-bottom: 10px; 
+      border-radius: 15px;
+    
+    } 
+
+    .h1t {
+        margin-left: 85px;
+    }
+
+    .marcs4 { 
+ 
+        margin-left: -5px;
+        width: 90px; 
+        height: 40px;
+    }
+
+    .h2subt { 
+
+        width: 300px;
+        height: 50px;
+    }
+
+
+ 
+
+    .grid2 { 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: repeat(2, 1fr) ; 
+        grid-template-areas:
+        "ordIndex1"
+        "ordIndex2"
+        ; 
+      
+    }
+  
+
+    .ordIndex1 { 
+            
+            margin-bottom: -5px;
+            grid-area: ordIndex1;  
+                     
+        
+        } 
+    
+    .ordIndex2 {
+                height: 300px; 
+                width: 365px;
+                margin-top: -5px;
+                grid-area: ordIndex2;  } 
+
+    
+
+
+    .OrdResp { 
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row: repeat(2, 1fr) ; 
+            grid-template-areas:
+            "ordIndex4"
+            "ordIndex5"
+            ;
+
+
+        }
+
+    .ordIndex4 { 
+            margin-top: -5px;
+            grid-area: ordIndex4;  } 
+    
+    .ordIndex5 { 
+                margin-top: -15px;
+                margin-bottom: -20px;
+                height: 300px; 
+                width: 365px;
+                grid-area: ordIndex5;  } 
+
+
+} 
+
+
+
+

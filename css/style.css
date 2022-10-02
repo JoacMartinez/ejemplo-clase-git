@@ -28,16 +28,27 @@
       
 
 
-* {box-sizing: border-box;}
+* {box-sizing: border-box; 
+    margin-left: 1px;
+   
+}
 
-nav {  
+nav { 
+
     background-color: rgb(48, 77, 109); 
     border-radius: 15px; 
-    color: burlywood} 
+    font-family: letratitulo1;
+    font-size: 20px;    
+    color: rgb(205, 209, 196);
+    margin-bottom: 5px; 
+} 
 
 footer { 
     background-color:rgb(48 ,77,109); 
-    border-radius: 15px;} 
+    border-radius: 15px;
+
+    font-family: letratitulo1;
+} 
 
 body { 
     border-radius: 15px; 
@@ -48,6 +59,8 @@ body {
 
 
 .h1t {
+    margin-top: 11px; 
+    margin-bottom: 15px;
     background-color: rgb(48, 77, 109); 
     text-align: center; 
     color: rgb(205, 209, 196); 
@@ -56,6 +69,7 @@ body {
     width: 200px;} 
 
 .h2subt {  
+    
     text-align: center; 
     font-family: letrasubt; 
     font-size: 30px; 
@@ -76,10 +90,13 @@ body {
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
+   
 }
 
 .marcs { 
     text-align: center; 
+    width: 1330px; 
+    height: 40px;
     font-family: letrasubt; 
     font-size: 25px; color: rgb(48 ,77,109);  
     border: solid 2px rgb(48 ,77,109);}
@@ -88,83 +105,38 @@ body {
 .lefoot {font-family: letraparrafo;}  
 
 
+
 .contenid {font-family: letraparrafo;}
 
 
 .bodyf { 
     font-family: letraparrafo; 
-    margin: 0 auto; 
+    margin: 0 auto;   
     border: solid 2px;    
-    height: 400px;
-    width: 300px;}
+    height: 550px;
+    width: 350px;}
 
 .imagenestienda {width: 250px;} 
 
 .bannerPic {
     height: 300px;
     width: 1330px; 
-    border-radius: 15px;} 
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    margin-right: 6px;
+} 
 
 .banner {
+        
         height: 300px;
         width: 1320px; 
         border-radius: 15px;} 
 
-.logo {
-    height: 100px; 
-    margin-right : 35px;
-    margin-top: 9px; 
-    margin-left: -25px; 
-    margin-bottom: 1px;}
-
-.ordenNav {
-        display: grid; 
-        grid-template-columns: repeat(6, 1fr);
-        align-items: center; 
-        gap: 2em; 
-        width: 95%;  
-        font-size: 30px; 
-        font-family: letratitulo1;}
-
-.ordenfoot {
-    display: -webkit-inline-box; 
-    width: 50%; 
-    font-family: footletra;}
-
-.tipefoot {list-style-type: circle;}
 
 .nosotrosima {width: 450px;}
 
 .decoracion {text-decoration: none;}
-
-.tipepreg {list-style-type:georgian}
-
-.card__image {
-    width: 98%; 
-    margin-left: 1%; 
-    margin-right: 1%;}
-
-.card {
-    width: 19%;
-    background-color: lightgray; 
-    display: inline-block;
-    padding: 1px 1px 1px 1px ; 
-    margin-top: 1%;
-    height: 450px; 
-    overflow: auto; 
-    border: solid 2px rgb(48 ,77,109 );}
-
-.btn {
-    color: rgb(48 ,77,109 ); 
-    font-family: letraparrafo;
-    font-size: 15px;}
-
-.respuesta {font-size: 18px;}
-
-#vinculo { 
-    color: black; 
-    font-family: letraparrafo;
-    font-size: 20px;}
 
 .divtras2 {
         
@@ -235,20 +207,6 @@ body {
     border: 2px solid rgb(205, 209, 196);
 }
 
-.imgno {
-        max-width: 100%; 
-        margin-bottom: 0.3em; 
-        display: block;
-        outline: 2px solid rgb(0, 0, 0);
-        outline-offset: -6px;
-        border-radius: 15px;                      
-     }
-     
-.galery {
-       
-         columns: 3 320px;
-         column-gap: 0.3em;
-     }
 
 .orden {
         display: grid; 
@@ -263,3 +221,39 @@ body {
             list-style: none;
         }
         
+
+@font-face { 
+            font-family: letratitulo1; 
+            src: url(../fonts/Kanit/Kanit-ExtraBoldItalic.ttf);}
+  
+        
+        
+       
+        
+.bordix {
+                
+                background-color: rgb(48 ,77,109 );
+                
+              }
+              
+.bordix:hover { 
+                  
+                  border: 3px solid rgb(205, 209, 196);
+              } 
+        
+        
+.colorF {
+            background-color: rgb(48 ,77,109 );
+        } 
+        
+        
+        
+.linkPag {
+            color: rgb(205, 209, 196);
+        } 
+
+
+.card { 
+    margin-left: 20px;
+    height: 3600px;
+}

@@ -7,49 +7,62 @@
     <title>Contacto</title>
     <meta name="description" content="contactanos por alguna devolucion o pregunta particular">
     <meta name="keywords" content="formulario devoluciones consultas catalogo mayorista">
-    <link rel="shortcut icon" href="./../Imagenes/favicon.jpg">
+    <link rel="shortcut icon" href="./Imagenes/favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css"">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <header>
-    <nav> 
-             
-        <ul class="listn ordenNav">
-        <li><img src="./imagenes/favicon.jpg" class="logo" alt="Logo de la empresa" id="INICIO"></li> 
-        
-        
-        <li><a href="./index.html" class="decoracion colorna bordix">Inicio</a></li>
-    
-        <li><a href="./nosotros.html" class="decoracion colorna bordix">Nosotros</a></li>
-     
-        <li><a href="./tienda.html" class="decoracion colorna bordix">Tienda</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="img/favicon.jpg">RoutineFit</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active bordix colorL" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bordix" href="./nosotros.html">Nosotros</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link active bordix" href="./tienda.html">Tienda</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link active bordix" href="./preguntas.html">Preguntas</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bordix" href="./contacto.html">Contacto</a>
+              </li>
 
-        <li><a href="./preguntas.html" class="decoracion colorna bordix">Preguntas</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <li> <a href="./contacto.html" class="decoracion colorna bordix">Contacto</a></li>
-    </ul>
-    
-    </nav>  
   
 
 </header>
 <body>
 <main>
-    <img src="./imagenes/banner.jpg" class="banner anime3" alt="Banner de ropa">
+    <img src="./imagenes/banner.jpg" class="banner anime3 bannerPic4" alt="Banner de ropa">
     <h1 class="h1t anime3">CONTACTO</h1>
     <h2 class="h2subt anime3">FORMULARIO</h2>  
 </main>
           
     <section class="anime3">   
            
-           <fieldset class="bodyf">  
+           <fieldset class="bodyf bodyfRes">  
             <form>
                 <div>
-                    <label for="Apellidos">Apellidos:</label>
+                    <label for="Apellidos">Apellido:</label>
                     <input type="text" id="Apellidos">
                 
                 </div>
                 <div>
-                    <label for="Nombres">Nombres:</label>
+                    <label for="Nombres">Nombre:</label>
                     <input type="text" id="Nombres">
                 </div>
                 
@@ -79,9 +92,9 @@
             <li><p class="contenid">Porque Razon nos contactas:</p></li>
                </ul> 
             <textarea name="" id="" cols="30" rows="10"></textarea>
-            <br>
-            <br>
+           
             <input type="submit" value="ENVIAR">
+            <br>
             </form>
           </fieldset>
     
@@ -90,7 +103,7 @@
     <br>
 
     <section>        
-        <fieldset class="bodyf">
+        <fieldset class="bodyf bodyfRes">
             <div>
             
                 <p class="pricet contenid">En caso de que se una devolucion o cambio, adjunta la factura digital:</p>
@@ -125,35 +138,43 @@
         </fieldset>         
     </section>    
             
-            
+    <br>        
     <br>
-              
+     <br>         
             
+    <footer>
 
-<footer>
-    <div class="ordenfoot">
-    
-    <ul class="tipefoot">
-    <h4 class="lefoot"><strong>Casa Central</strong></h4>
-    <li>José Cubas 2729, Ciudad Autónoma de Buenos Aires</li>
-    <li>(011) 4574-1647</li>  
-    <li>routinefit@gmail.com</li>  
-    </ul>    
-    
-    <br> 
-    
-    <ul class="tipefoot">     
-    <h4 class="lefoot"><strong>Fabrica</strong></h4>
-    <li>Avenida General San Martin 1345, Ciudad de Mendoza</li>
-    <li>(261) 5209- 3916</li>  
-    <li>fabrica.routinefit@gmail.com</li>  
-    </ul>
-    </div>
-    
-    <ul>
-    <strong><h5>©Copyright 2020 - RoutineFit® | Todos los Derechos Reservados | Diseño Web Profesional:. www.joacmartinez.com.ar</h5></strong>
-    </ul>
-</footer> 
-    
+        <div class="container-fluid linkPag"> 
+       
+            <div class="row"> 
+          
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <p>° Casa Central</p>
+              </div>
+              
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <P>° Avenida General San Martin 1345, Ciudad de Mendoza</P>
+              </div>
+               
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                   <p>° (261) 5209- 3916</p>
+              </div>
+              
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <p>° fabrica.routinefit@gmail.com</p>
+              </div>
+              
+          
+            </div>
+          
+          </div>
+          
+          <hr>
+          
+          <h5 class="linkPag">©Copyright 2020 - RoutineFit® | Todos los Derechos Reservados | Diseño Web Profesional:. www.joacmartinez.com.ar</h5>
+          <br>
+          </footer>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
